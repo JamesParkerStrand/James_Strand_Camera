@@ -8,7 +8,7 @@ camera.resolution = (1920, 1080)
 camera.image_denoise = False
 camera.video_denoise = False
 
-app = App("James Strand Camera App", height=880, width=1000)
+app = App("James Strand Camera App", height=880, width=1400)
 
 app.font = "DejaVuSerifCondensed"
 
@@ -164,7 +164,7 @@ effects.text_size = "20"
 
 effects.bg = "Yellow"
 
-isochanger = Slider(app, command=isochange, start=0, end=62000, width=1500)
+isochanger = Slider(app, command=isochange, start=0, end=800, width=1500)
 
 isoteller = Text(app, text="Iso speed (Note:Leave on 0 for automatic!)",)
 
